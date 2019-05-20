@@ -1,7 +1,11 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <nav id="navBar">
+      <li class="navItem"><a class="link" href="https://google.com">Home</a></li>
+      <li class="navItem"><a class="link" href="https://google.com">About</a></li>
+      <li class="navItem"><a class="link" href="https://google.com">Contact</a></li>
+    </nav>
+    <HelloWorld msg="Hi, i'm Sirus Goorhuis"/>
   </div>
 </template>
 
@@ -24,5 +28,23 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+#navBar {
+  width: 100%;
+  height: 10vw;;
+}
+.navItem {
+  list-style-type: none;
+  display: inline-block;
+  margin: 2vw;
+  float: center;
+}
+.link {
+   text-decoration: none;
+   padding: 1vw;
+}
+.link:hover {
+  background-color: black;
+  color: white;
 }
 </style>
