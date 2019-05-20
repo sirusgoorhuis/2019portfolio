@@ -2,24 +2,27 @@
   <div class="hello">
     <h1>{{ msg }}</h1>
     <p>
-      For a guide and recipes on how to configure / customize this project,<br>
-      check out the
-      <a href="https://cli.vuejs.org" target="_blank" rel="noopener">vue-cli documentation</a>.
+      Welcome to my portfolio. It may not look like much yet but I'm working on it! Expect there to be some mayor changes. You can check my progress here and if you want to know vistit my
+      <a href="https://github.com/sirusgoorhuis/2019portfolio" target="_blank" rel="noopener">GitHub</a>.
     </p>
-    <h3>Installed CLI Plugins</h3>
-    <ul>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-babel" target="_blank" rel="noopener">babel</a></li>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-eslint" target="_blank" rel="noopener">eslint</a></li>
-    </ul>
-    <h3>Essential Links</h3>
-    <ul>
-      <li><a href="https://vuejs.org" target="_blank" rel="noopener">Core Docs</a></li>
-      <li><a href="https://forum.vuejs.org" target="_blank" rel="noopener">Forum</a></li>
-      <li><a href="https://chat.vuejs.org" target="_blank" rel="noopener">Community Chat</a></li>
-      <li><a href="https://twitter.com/vuejs" target="_blank" rel="noopener">Twitter</a></li>
-      <li><a href="https://news.vuejs.org" target="_blank" rel="noopener">News</a></li>
-    </ul>
-    <h3>Ecosystem</h3>
+    
+    <section>
+      <h3>Portfolio</h3>
+      <div id="portfolioImage"></div>
+      <p>
+        Learn more about my work!
+      </p>
+
+
+    </section>
+
+    <h3>About me</h3>
+    <div id="aboutMeImage"></div>
+      <p>
+        Get to know me a bit better.
+      </p>
+
+    <h3>Something Fun!</h3>
     <ul>
       <li><a href="https://router.vuejs.org" target="_blank" rel="noopener">vue-router</a></li>
       <li><a href="https://vuex.vuejs.org" target="_blank" rel="noopener">vuex</a></li>
@@ -53,6 +56,23 @@ li {
   margin: 0 10px;
 }
 a {
-  color: #42b983;
+  color: #f700cd;
+  text-decoration: none;
+}
+#portfolioImage {
+  width: 90vw;
+  height: 90vw;
+  background-image: url(https://festivalfans.nl/wp-content/uploads/2014/11/paaspop-2019.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 10px;
+}
+#aboutMeImage {
+  width: 90vw;
+  height: 90vw;
+  background-image: url(https://avatars1.githubusercontent.com/u/31924849?s=460&v=4);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 10px;
 }
 </style>
