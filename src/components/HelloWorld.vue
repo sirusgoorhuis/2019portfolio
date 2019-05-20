@@ -12,17 +12,21 @@
       <p>
         Learn more about my work!
       </p>
-
-
     </section>
 
-    <h3>About me</h3>
-    <div id="aboutMeImage"></div>
+    <section>
+      <h3>About me</h3>
+      <div id="aboutMeImage"></div>
       <p>
-        Get to know me a bit better.
+          Get to know me a bit better.
       </p>
+    </section>
 
-    <h3>Something Fun!</h3>
+    <section>
+      <h3>Something Fun!</h3>
+      <div id="aomethingFunImage"></div>
+      <p></p>
+    </section>
     
   </div>
 </template>
