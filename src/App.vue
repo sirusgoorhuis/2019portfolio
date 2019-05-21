@@ -26,12 +26,12 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: rgba(12, 11, 11, 0.918);
   margin-top: 60px;
 }
 #navBar {
   width: 100%;
-  height: 10vw;;
+  height: 10vw;
 }
 .navItem {
   list-style-type: none;
@@ -41,9 +41,10 @@ export default {
 .link {
    text-decoration: none;
    padding: 1vw;
+   color: rgba(12, 11, 11, 0.918);
 }
 .link:hover {
   background-color: black;
-  color: white;
+  color: rgba(12, 11, 11, 0.918);
 }
 </style>

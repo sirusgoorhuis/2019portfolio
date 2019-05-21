@@ -5,10 +5,10 @@
       Welcome to my portfolio. It may not look like much yet but I'm working on it! Expect there to be some mayor changes. You can check my progress here and if you want to know more vistit my
       <a href="https://github.com/sirusgoorhuis/2019portfolio" target="_blank" rel="noopener">GitHub</a>.
     </p>
-    
+
     <section>
       <h3>Portfolio</h3>
-      <div id="portfolioImage"></div>
+      <md-content id="portfolioImage" class="md-elevation-24"></md-content>
       <p>
         Learn more about my work!
       </p>
@@ -16,7 +16,7 @@
 
     <section>
       <h3>About me</h3>
-      <div id="aboutMeImage"></div>
+      <div id="aboutMeImage" class="md-elevation-24"></div>
       <p>
           Get to know me a bit better.
       </p>
@@ -24,7 +24,7 @@
 
     <section>
       <h3>Something Fun!</h3>
-      <div id="somethingFunImage"></div>
+      <div id="somethingFunImage" class="md-elevation-24"></div>
       <p></p>
     </section>
     
@@ -63,27 +63,32 @@ a {
 }
 #portfolioImage {
   width: 90vw;
-  height: 90vw;
+  height: 50vw;
   background-image: url(https://festivalfans.nl/wp-content/uploads/2014/11/paaspop-2019.png);
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
   margin: 10px;
+  /* box-shadow: 5px 5px 5px rgba(255, 255, 255, 0.699); */
 }
 #aboutMeImage {
   width: 90vw;
-  height: 90vw;
+  height: 50vw;
   background-image: url(https://avatars1.githubusercontent.com/u/31924849?s=460&v=4);
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
   margin: 10px;
+  /* box-shadow: 5px 5px 5px rgba(255, 255, 255, 0.699); */
 }
 #somethingFunImage {
   width: 90vw;
-  height: 90vw;
+  height: 50vw;
   background-image: url('../assets/fuut.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   margin: 10px;
+  /* box-shadow: 5px 5px 5px rgba(255, 255, 255, 0.699); */
 }
 </style>
