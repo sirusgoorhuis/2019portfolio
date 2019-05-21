@@ -1,4 +1,6 @@
 # portfolio
+This project was created by Sirus Goorhuis and serves as a personal portfolio.
+Feel free to use, modify and distribute this project in any way or form you like!
 
 ## Project setup
 ```
