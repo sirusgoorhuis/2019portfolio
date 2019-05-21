@@ -2,7 +2,7 @@
   <div class="hello">
     <h1>{{ msg }}</h1>
     <p>
-      Welcome to my portfolio. It may not look like much yet but I'm working on it! Expect there to be some mayor changes. You can check my progress here and if you want to know vistit my
+      Welcome to my portfolio. It may not look like much yet but I'm working on it! Expect there to be some mayor changes. You can check my progress here and if you want to know more vistit my
       <a href="https://github.com/sirusgoorhuis/2019portfolio" target="_blank" rel="noopener">GitHub</a>.
     </p>
     
@@ -24,10 +24,14 @@
 
     <section>
       <h3>Something Fun!</h3>
-      <div id="aomethingFunImage"></div>
+      <div id="somethingFunImage"></div>
       <p></p>
     </section>
     
+    <footer>
+
+    </footer>
+
   </div>
 </template>
 
@@ -71,6 +75,15 @@ a {
   background-image: url(https://avatars1.githubusercontent.com/u/31924849?s=460&v=4);
   background-size: cover;
   background-repeat: no-repeat;
+  margin: 10px;
+}
+#somethingFunImage {
+  width: 90vw;
+  height: 90vw;
+  background-image: url('../assets/fuut.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   margin: 10px;
 }
 </style>

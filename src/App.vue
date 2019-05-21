@@ -37,7 +37,6 @@ export default {
   list-style-type: none;
   display: inline-block;
   margin: 2vw;
-  float: center;
 }
 .link {
    text-decoration: none;
