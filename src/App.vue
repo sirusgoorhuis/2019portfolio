@@ -5,7 +5,7 @@
       <li class="navItem"><a class="link" href="https://google.com">About</a></li>
       <li class="navItem"><a class="link" href="https://google.com">Contact</a></li>
     </nav>
-    <HelloWorld msg="Hi, i'm Sirus Goorhuis"/>
+    <HelloWorld/>
   </div>
 </template>
 
