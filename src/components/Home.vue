@@ -1,5 +1,5 @@
 <template>
-  <div class="hello md-layout">
+  <div class="md-layout">
     <h1>Hi, i'm Sirus Goorhuis</h1>
     <p>
       Welcome to my portfolio. It may not look like much yet but I'm working on it! Expect there to be some mayor changes. You can check my progress here and if you want to know more vistit my
@@ -7,11 +7,13 @@
     </p>
 
     <section class="md-layout-item">
-      <h3>Portfolio</h3>
-      <div id="portfolioImage" class="md-elevation-24"></div>
-      <p>
-        Learn more about my work!
-      </p>
+      <nuxt-link to="/app-portfolio">
+        <h3>Portfolio</h3>
+        <div id="portfolioImage" class="md-elevation-24"></div>
+        <p>
+          Learn more about my work!
+        </p>
+      </nuxt-link>  
     </section>
 
     <section class="md-layout-item">
@@ -46,12 +48,18 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/vue-material/0.7.4/vue-material.css');
+
 h1 {
   width: 100vw;
   text-align: center;
 }
 h3 {
   margin: 40px 0 0;
+  width: 100%;
+  text-align: center;
+  float: center;
 }
 ul {
   list-style-type: none;

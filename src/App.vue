@@ -1,24 +1,12 @@
 <template>
   <div id="app">
-    <nav id="navBar">
-      <li class="navItem"><a class="link" href="https://google.com">Home</a></li>
-      <li class="navItem"><a class="link" href="https://google.com">About</a></li>
-      <li class="navItem"><a class="link" href="https://google.com">Contact</a></li>
-    </nav>
-    <HelloWorld/>
+    <div id="nav">
+      <router-link to="/">Home</router-link> |
+      <router-link to="/about">About</router-link>
+    </div>
+    <router-view/>
   </div>
 </template>
-
-<script>
-import HelloWorld from './components/HelloWorld.vue';
-
-export default {
-  name: 'app',
-  components: {
-    HelloWorld,
-  },
-};
-</script>
 
 <style>
 #app {
